@@ -14,7 +14,7 @@ services:
     environment:
       MYSQL_DATABASE: nextcloud
       MYSQL_USER: nextcloud
-      MYSQL_PASSWORD: nextcloud
+      MYSQL_PASSWORD: dvdmjH9UjKvQZw5vpXJmvWLmxSgZyASV
       MYSQL_HOST: db:3306
   onlyoffice-document-server:
     container_name: onlyoffice-document-server
@@ -43,10 +43,10 @@ services:
       - db_data:/var/lib/mysql
     restart: unless-stopped
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: inshallah
       MYSQL_DATABASE: nextcloud
       MYSQL_USER: nextcloud
-      MYSQL_PASSWORD: nextcloud
+      MYSQL_PASSWORD: dvdmjH9UjKvQZw5vpXJmvWLmxSgZyASV
 
 volumes:
   document_data:
